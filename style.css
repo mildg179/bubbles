@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'GlyphWorld Meadow';
+    src: url('GlyphWorld-Meadow.woff2') format('woff2'),
+        url('GlyphWorld-Meadow.woff') format('woff'),
+        url('GlyphWorld-Meadow.ttf') format('truetype'),
+        url('GlyphWorld-Meadow.svg#GlyphWorld-Meadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'GlyphWorld Meadow';
+  background-image: url('imgs/bubble1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 274px 258px 255px 258px 255px;
+    grid-template-rows: 263px 251px 258px;
+    grid-gap: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.circle {
+    place-self: center;
+    display: flex;
+    height: 265px;
+    width: 265px;
+}
+.circle1 {
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+button {
+    place-self: center;
+    background-color: transparent;
+    height: 265px;
+    width: 265px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+#content{
+    display:none;
+}
+#content.show{
+    display:block;
+}
+#content2{
+    display:none;
+}
+#content2.show{
+    display:block;
+}
+#content3{
+    display:none;
+}
+#content3.show{
+    display:block;
+}
+#content4{
+    display:none;
+}
+#content4.show{
+    display:block;
+}
+#content5{
+    display:none;
+}
+#content5.show{
+    display:block;
+}
+#content6{
+    display:none;
+}
+#content6.show{
+    display:block;
+}
+#content7{
+    display:none;
+}
+#content7.show{
+    display:block;
+}
+#content8{
+    display:none;
+}
+#content8.show{
+    display:block;
+}
+#content9{
+    display:none;
+}
+#content9.show{
+    display:block;
+}
+#content10{
+    display:none;
+}
+#content10.show{
+    display:block;
+}
+#content11{
+    display:none;
+}
+#content11.show{
+    display:block;
+}
+#content12{
+    display:none;
+}
+#content12.show{
+    display:block;
+}
+#content13{
+    display:none;
+}
+#content13.show{
+    display:block;
+}
+#content14{
+    display:none;
+}
+#content14.show{
+    display:block;
+}
+#content15{
+    display:none;
+}
+#content15.show{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
